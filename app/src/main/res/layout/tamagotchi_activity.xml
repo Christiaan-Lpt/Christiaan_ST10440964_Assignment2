@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/villagebckground2">
+
+    <TextView
+        android:id="@+id/DogName"
+        android:layout_width="203dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/TamagotchiWelcome"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/WaitingDog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <Button
+        android:id="@+id/FeedButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#4D000000"
+        android:text="@string/FeedBtn"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:icon="@drawable/feeding_icon_imadass2_"
+        app:layout_constraintBottom_toTopOf="@+id/CleanButton"
+        app:layout_constraintEnd_toStartOf="@+id/TextHunger"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WaitingDog"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <Button
+        android:id="@+id/CleanButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#4D000000"
+        android:text="@string/CleanBtn"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:icon="@drawable/bathing_icon__imadass_"
+        app:layout_constraintBottom_toTopOf="@+id/PetButton"
+        app:layout_constraintEnd_toStartOf="@+id/TextDirtiness"
+        app:layout_constraintHorizontal_bias="0.007"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/PetButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#4D000000"
+        android:text="@string/PetBtn"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:icon="@drawable/pet_icon_imadass2_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/TextHappiness"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/HungerNumber"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="30dp"
+        android:background="#4D76C318"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/DirtinessNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WaitingDog"
+        app:layout_constraintVertical_bias="0.886"
+        tools:ignore="Autofill,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/DirtinessNumber"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="30dp"
+        android:background="#4D7FCC15"
+        android:ems="10"
+        android:hint="0"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/HappinessNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText,LabelFor,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/HappinessNumber"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="76dp"
+        android:background="#4D82CC13"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="Autofill,LabelFor" />
+
+    <TextView
+        android:id="@+id/TextHunger"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="#4D7ECB16"
+        android:gravity="center"
+        android:text="@string/DogHunger"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TextDirtiness"
+        app:layout_constraintEnd_toStartOf="@+id/HungerNumber"
+        app:layout_constraintTop_toBottomOf="@+id/WaitingDog"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <TextView
+        android:id="@+id/TextDirtiness"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:background="#4D7ECB14"
+        android:gravity="center"
+        android:text="@string/DogClean"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TextHappiness"
+        app:layout_constraintEnd_toStartOf="@+id/DirtinessNumber" />
+
+    <TextView
+        android:id="@+id/TextHappiness"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginStart="28dp"
+        android:background="#4D7FCC15"
+        android:gravity="center"
+        android:text="@string/DogWellness"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/HappinessNumber" />
+
+    <ImageView
+        android:id="@+id/WaitingDog"
+        android:layout_width="200dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sitting_dog_2__imadass2_"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

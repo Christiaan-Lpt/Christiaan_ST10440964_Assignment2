@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Welcome to your Tamagotchi app.
+        Here\'s your dog,Spot!</string>
+    <string name="WelcomeButton">Welcome</string>
+    <string name="FeedBtn">Feed</string>
+    <string name="CleanBtn">Clean</string>
+    <string name="PetBtn">Pet</string>
+    <string name="TamagotchiWelcome">Spot</string>
+    <string name="DogHunger">Hunger: </string>
+    <string name="DogClean">Dirtiness: </string>
+    <string name="DogWellness">Happiness: </string>
+</resources>
