@@ -60,4 +60,4 @@ C:\Users\Admin\Videos\Captures\Assignment 2 – TamagotchiAppActivity.kt [Assign
 Conclusion
 The Tamagotchi App offers users an engaging and nostalgic experience of caring for a virtual pet on their Android devices. Through intuitive design, interactive gameplay, and GitHub integration, the app delivers a seamless and enjoyable user experience, fostering a sense of responsibility and attachment to the virtual pet. It serves as a modern adaptation of the classic Tamagotchi toy, bringing the joy of pet ownership to the digital age.
 
-![Uploading image.png…]()
+![image](https://github.com/Christiaan-Lpt/Christiaan_ST10440964_Assignment2/assets/164025506/52cc36b0-4cde-4af0-ba55-ab02aeaf8527)
