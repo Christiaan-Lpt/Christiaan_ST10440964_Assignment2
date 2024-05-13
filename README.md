@@ -2,7 +2,8 @@
 Assignment 2 for IMAD 5111. About the Tamagotchi app
 
 App report
-![image](https://github.com/Christiaan-Lpt/Christiaan_ST10440964_Assignment2/assets/164025506/ab66fca1-74b9-4506-ab2b-4c4061bddac4)
+![image](https://github.com/Christiaan-Lpt/Christiaan_ST10440964_Assignment2/assets/164025506/ab66fca1-74b9-4506-ab2b-4c4061bddac4) ![image](https://github.com/Christiaan-Lpt/Christiaan_ST10440964_Assignment2/assets/164025506/412b5773-bee1-496d-9ead-7a54de980362)
+
 
 
 Introduction
